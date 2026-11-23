@@ -1,0 +1,11 @@
+fun main() {
+    val matriz = arrayOf(
+        intArrayOf(1, 2, 3, 4),
+        intArrayOf(5, 6, 7, 8),
+        intArrayOf(9, 10, 11, 12)
+    )
+
+    for (i in matriz.indices) {
+        println("Soma da linha ${i + 1}: ${matriz[i].sum()}")
+    }
+}
